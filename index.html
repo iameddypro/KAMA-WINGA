@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>Kama Winga</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+      /* Snapchat-like Font Stack */
+      @font-face {
+        font-family: 'Avenir Next';
+        src: local('Avenir Next'), local('AvenirNext-Regular'), local('Segoe UI');
+        font-weight: 400;
+        font-style: normal;
+      }
+      @font-face {
+        font-family: 'Avenir Next';
+        src: local('Avenir Next Bold'), local('AvenirNext-Bold'), local('Segoe UI Bold');
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      body {
+        font-family: 'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif;
+        background-color: #000000;
+        color: #ffffff;
+        -webkit-tap-highlight-color: transparent;
+        letter-spacing: -0.01em; /* Tighter tracking like Snapchat */
+      }
+      /* Hide scrollbar for clean UI in horizontal lists */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      /* Polymarket-style sharp inputs */
+      input, textarea {
+        border-radius: 0.5rem; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

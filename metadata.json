@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Kama Winga",
+  "description": "Jukwaa la kutafuta bidhaa kwa kutumia picha na nguvu ya jamii pamoja na AI. Piga picha, post, na upate majibu ya wapi inapatikana.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
